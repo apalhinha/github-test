@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
         TextView textView = findViewById(R.id.textView);
-        textView.setText( "Bye");
+        //textView.setText( "Bye");
         startActivity(intent);
     }
 }
